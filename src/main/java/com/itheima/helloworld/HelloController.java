@@ -13,6 +13,6 @@ public class HelloController {
     @GetMapping("/hello")
     public String hello(){
         System.out.println("Hello World...");
-        return "OK";
+        return "ITCAST OK";
     }
 }
